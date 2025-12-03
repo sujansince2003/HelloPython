@@ -33,7 +33,7 @@ df = pd.DataFrame({
     "temp_min": daily_data["temperature_2m_min"]
 })
 
-df["date"]= pd.to_datetime(df["date"])
+df["date"]= pd.to_datetime(df["date"])  #"2025-12-2" -> 2025-12-2
 # print(df)
 
 # save to csv
